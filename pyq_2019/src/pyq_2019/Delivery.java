@@ -37,7 +37,7 @@ public class Delivery {
     public String toString() {
         return "From : " + sender + " To : " + recipient + 
                 "\nWeight of package : " + weight + " kg" +
-                "Shipping Cost : RM " + totalCost();
+                "\nShipping Cost : RM " + totalCost();
     }
     
     
